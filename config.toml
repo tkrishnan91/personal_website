@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://tkrishnan91.github.io"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
