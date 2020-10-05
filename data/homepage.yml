@@ -1,0 +1,224 @@
+# showcase
+
+
+showcase:
+  enable: true
+  title: "Hello, I’m Tara."
+  subtitle: "Product Marketer | Product Manager | Program Manager | Mentor"
+  description: "I work cross-functionally with teams to drive product adoption, make data driven product decisions and bring products to market. My last role was at Puppet where I served as a Product Manager."
+  image:
+    x: "img/showcase/pmm_image"
+    _2x: "img/showcase/pmm_image@2x.png"
+  imageMobile:
+    x: "img/showcase/pmm_image-mobile.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://calendly.com/tara_krishnan"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/tara-krishnan/"
+
+    - icon: "github"
+      URL: "https://github.com/tkrishnan91"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/tara.krishnan.7"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '
+
+    I’m a product enthusiast driven by turning customer problems
+    into actionable solutions.
+
+    I have a passion for volunteering and currently volunteer with:
+      <ul>
+    <li> <a href="http://stemlikeagirl.org/">STEM Like a Girl</a>, a non-profit dedicated to inspiring young girls develop interest in STEM
+    through hands-on activities and parent engagement </li>
+    <li> <a href="https://chicktech.org/">ChickTech</a>, a non-profit whose mission is to engage women of all ages in the tech industry </li>
+    <li> My alma-mater <a href="https://www.olin.edu/">Olin College of Engineering</a>, where I serve as Program Manager for our Alumni-Student mentorship program </li>
+    </ul>
+
+
+
+    I also enjoy trail running at Leif Erikson, barre3, and learning to cook South Indian food from the YouTube channel <a href="https://www.youtube.com/channel/UCHGktfcQq2BY_8tGPHwvm7g">Madras Samayal</a>.
+
+    '
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/tara-krishnan/"
+  image:
+    x: "img/who-am-i/user-picture.jpg"
+    _2x: "img/who-am-i/user-picture@2x.jpg"
+#
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Olin College of Engineering"
+      year: "2009-2013"
+      degree: "Bachelor of Science (BS), Electrical and Computer Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "<ul>
+  <li> Over 5+ years of experience working in techical sales, marketing, and product.</li>
+  <li> Certifications in Pragmatic Marketing (Level III) and Scrum Ownership.</li>
+  <li> Member of Society of Women Engineers (SWE) and the Product Marketing Alliance.</li>
+  </ul>"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/tara-krishnan/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://tara-website.s3-us-west-2.amazonaws.com/TaraKrishnanResume.pdf"
+
+  items:
+    - title: "Product Manager"
+      company: "Puppet"
+      duration: "September 2019 - April 2020"
+
+    - title: "Product Marketer"
+      company: "Jama Software"
+      duration: "June 2018 - May 2019"
+
+    - title: "Inside Sales Representative"
+      company: "Global Foundries/IBM"
+      duration: "August 2013 - July 2017"
+
+# Client & Work
+client_and_work:
+  title: "Personal Projects"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Banter at Olin"
+      description: "An alumni-student mentorship program which provides students with the connections and support they need to succeed "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Banter.pdf"
+      image:
+        x: "img/works/banter.png"
+        _2x: "img/works/banter@2x.png"
+      is_even: true
+
+    - title: "MedAlarm"
+      description: "Flutter application that reminds a user when to take their medicine, what medicine to take and ensures that the user is taking the correct dosage through image-based validation"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/MedAlarm.pdf"
+      image:
+        x: "img/works/medalarm_image.png"
+        _2x: "img/works/medalarm_image@2x.png"
+      is_even: false
+
+    - title: "Decipher Videos with Bots"
+      description: "AWS Lambda function which transcribes mp4 videos into text, benefiting those needing to quickly transcribe videos, filter video content on keywords, and add text to existing videos."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Decipher+Videos+with+Bots.pdf"
+      image:
+        x: "img/works/transcribe.png"
+        _2x: "img/works/transcribe@2x.png"
+      is_even: true
+
+    - title: "Capterra Review"
+      description: "Slack bot which sends an instant notification showcasing the reviewer name, NPS score and total number of reviews to date after a customer writes a customer review on Capterra."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Capterra+Review.pdf"
+      image:
+        x: "img/works/capterra.png"
+        _2x: "img/works/capterra@2x.png"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Dave Shanley"
+      position: "Content Camel, CEO"
+      content: "I highly recommend Tara. Her strong sense of ownership, high level of organization, and desire to continually learn meant that she meshed seamlessly with our deeply experienced Product Marketing team and ran independently with several significant initiatives while also supporting the efforts of the larger group.
+In her time with us, Tara owned messaging on the Customer Review sites (like Capterra, G2 Crowd) and developing an incentive program to yield more reviews in a scrappy, low-cost way. In addition, she launched add-ons for our flagship product, wrote several blog posts including all the background research, and wrapped up positioning for a significant area of our product.
+Tara was so well liked internally that the business development team stole her away to run with some of their projects.
+
+Tara brings a hard-to-find mix of market awareness, technical knowledge, and a desire to learn along with a can-do attitude and perseverance. She's a delight to work with and would be a great addition to any team.
+"
+      image:
+        x: "img/testimonials/dave.jpeg"
+        _2x: "img/testimonials/dave@2x.jpeg"
+
+    - name: "Francis Rajan"
+      position: "IBM, Sales Director"
+      content: "In my capacity as the WW Sales Director at IBM Microelectronics, I interacted with Tara regularly as she provided Product Management support for several of my top ten clients. She was responsible for working with customers to ensure new products smoothly transitioned into high volume production. Tara demonstrated strong product and project management skills and leveraged her leadership capabilities to ensure that issues were quickly resolved. She has a pleasant personality and used it to her advantage to team with cross functional groups and put strategies in place that contemplated various scenarios and identified paths to problem resolution. As a mentor, I have witnessed Tara grow from her early years in IBM to a strong and confident individual with a vision for her career. I am confident that Tara will succeed in her future endeavors and I highly recommend her for any opportunities she wants to pursue."
+      image:
+        x: "img/testimonials/francis.jpeg"
+        _2x: "img/testimonials/francis@2x.jpeg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "(541) 231 9176"
+  email:
+    title: "Email"
+    email: '<a href="mailto:krishnantara@gmail.com">krishnantara@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"

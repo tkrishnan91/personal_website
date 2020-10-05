@@ -1,0 +1,6 @@
+[submodule "raditian-free-hugo-theme"]
+	path = raditian-free-hugo-theme
+	url = git@github.com:tkrishnan91/raditian-free-hugo-theme.git
+[submodule "themes/raditian-free-hugo-theme"]
+	path = themes/raditian-free-hugo-theme
+	url = git@github.com:tkrishnan91/raditian-free-hugo-theme.git
