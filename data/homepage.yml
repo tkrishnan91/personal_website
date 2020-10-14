@@ -25,7 +25,7 @@ showcase:
       URL: "https://github.com/tkrishnan91"
 
     - icon: "facebook"
-      URL: "https://www.facebook.com/tara.krishnan.7"
+      URL: "https://www.facebook.com/tkrishnan91"
 
 
 # about
@@ -33,23 +33,22 @@ about:
   enable: true
   title: "Who am I?"
   content: '
-
     I’m a product enthusiast driven by turning customer problems
     into actionable solutions.
 
     I have a passion for volunteering and currently volunteer with:
-      <ul>
-    <li> <a href="http://stemlikeagirl.org/">STEM Like a Girl</a>, a non-profit dedicated to inspiring young girls develop interest in STEM
-    through hands-on activities and parent engagement </li>
-    <li> <a href="https://chicktech.org/">ChickTech</a>, a non-profit whose mission is to engage women of all ages in the tech industry </li>
-    <li> My alma-mater <a href="https://www.olin.edu/">Olin College of Engineering</a>, where I serve as Program Manager for our Alumni-Student mentorship program </li>
-    </ul>
-
-
-
-    I also enjoy trail running at Leif Erikson, barre3, and learning to cook South Indian food from the YouTube channel <a href="https://www.youtube.com/channel/UCHGktfcQq2BY_8tGPHwvm7g">Madras Samayal</a>.
-
     '
+  content1: '
+    <ul>
+  <li> <a href="http://stemlikeagirl.org/">STEM Like a Girl</a>, a non-profit dedicated to inspiring young girls develop interest in STEM
+  through hands-on activities and parent engagement </li>
+  <li> <a href="https://chicktech.org/">ChickTech</a>, a non-profit whose mission is to engage women of all ages in the tech industry </li>
+  <li> My alma-mater <a href="https://www.olin.edu/">Olin College of Engineering</a>, where I serve as Program Manager for our Alumni-Student mentorship program </li>
+  </ul>
+  '
+  content2: '
+    I also enjoy trail running at Leif Erikson, barre3, and learning to cook South Indian food from the YouTube channel <a href="https://www.youtube.com/channel/UCHGktfcQq2BY_8tGPHwvm7g">Madras Samayal</a>.
+  '
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
@@ -163,18 +162,18 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Decipher+Videos+with+Bots.pdf"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Bots.pdf"
       image:
         x: "img/works/transcribe.png"
         _2x: "img/works/transcribe@2x.png"
       is_even: true
 
     - title: "Capterra Review"
-      description: "Slack bot which sends an instant notification showcasing the reviewer name, NPS score and total number of reviews to date after a customer writes a customer review on Capterra."
+      description: "Slack bot which sends an instant slack notification showcasing the reviewer name, NPS score and total number of reviews to date after a customer writes a customer review on Capterra."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
-        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Capterra+Review.pdf"
+        URL: "https://tara-website.s3-us-west-2.amazonaws.com/Capterra.pdf"
       image:
         x: "img/works/capterra.png"
         _2x: "img/works/capterra@2x.png"
@@ -221,4 +220,5 @@ contact:
     email: '<a href="mailto:krishnantara@gmail.com">krishnantara@gmail.com</a>'
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Schedule Time With Me"
+    URL: "https://calendly.com/tara_krishnan"

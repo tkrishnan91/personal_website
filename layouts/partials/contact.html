@@ -7,39 +7,52 @@
                 <div class="col-12 col-lg-7">
                     <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
                         <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="full_name"
-                                       placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="email"
-                                       placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
-                            </div>
+
+
                         </div>
+
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="" id="message"
-                                          cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">
+                              <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
+                              <span>{{ .Site.Data.homepage.contact.phone.number }}
+                                <br>
+                                <br>
+                              </span>
+
+                              <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
+                              <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}
+                              <br>
+                              <br>
+                              </span>
+                              <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
+                              <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
+                              <!-- {{ .Site.Data.homepage.contact.button.URL | absURL }} -->
+                                <!-- <button type="submit" onclick="location.href = {{ .Site.Data.homepage.contact.button.URL | absURL }};" class="btn btn-primary">
+
                                     <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
                                     {{ .Site.Data.homepage.contact.button.btnText }}
-                                </button>
+                                </button> -->
+                                <a
+                                  href="{{ .Site.Data.homepage.contact.button.URL | absURL }}"
+                                  class="btn btn-primary"
+                                >
+                                  <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
+                                  {{ .Site.Data.homepage.contact.button.btnText }}
+                                </a>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-lg-5 contact__info">
+                <!-- <div class="col-12 col-lg-5 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.phone.number }}</span>
                     <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
                     <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
-                </div>
+                </div> -->
+
+
             </div>
         </div>
     </div>
