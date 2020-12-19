@@ -25,6 +25,9 @@ showcase:
     - icon: "facebook"
       URL: "https://www.facebook.com/tkrishnan91"
 
+    - icon: "twitter"
+      URL: "https://www.twitter.com/tkrishnan91"
+
 
 # about
 about:
@@ -82,6 +85,10 @@ experience:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
     URL: "https://tara-website.s3-us-west-2.amazonaws.com/TaraKrishnanResume.pdf"
+  button3:
+    icon: "icon-yelp-line"
+    btnText: "View My Content"
+    URL: "https://tara-website.s3-us-west-2.amazonaws.com/Tara%E2%80%99s+Content.pdf"
 
   items:
     - title: "Product Manager"
@@ -182,8 +189,16 @@ testimonial:
   enable: true
   title: "Testimonials"
   items:
+
+    - name: "Jed Gresham"
+      position: "Puppet, Director of Product Management"
+      content: "It was great to work with Tara as someone newer to the Product Management discipline. She's always eager to try new things and had no problem asking questions. She took on some pretty big projects early on, and her work product was always impressive. When discussing her deliverables it became apparent to me that she's really comfortable winding her way throughout an organization to learn more for different teams and individuals, and ultimately overachieve on outcomes without needing a ton of direction up front. That was really refreshing and it felt like her experiential growth came very quickly. I trust Tara and know she would be a great addition to a team and would make quick work of onboarding and learning new concepts."
+      image:
+        x: "img/testimonials/jed.jpeg"
+        _2x: "img/testimonials/jed@2x.jpeg"
+
     - name: "Dave Shanley"
-      position: "Content Camel, CEO"
+      position: "Jama Software, VP of Product Marketing"
       content: "I highly recommend Tara. Her strong sense of ownership, high level of organization, and desire to continually learn meant that she meshed seamlessly with our deeply experienced Product Marketing team and ran independently with several significant initiatives while also supporting the efforts of the larger group.
 In her time with us, Tara owned messaging on the Customer Review sites (like Capterra, G2 Crowd) and developing an incentive program to yield more reviews in a scrappy, low-cost way. In addition, she launched add-ons for our flagship product, wrote several blog posts including all the background research, and wrapped up positioning for a significant area of our product.
 Tara was so well liked internally that the business development team stole her away to run with some of their projects.
