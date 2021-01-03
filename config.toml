@@ -1,5 +1,5 @@
 #URL to our website
-baseURL = "https://tkrishnan91.github.io"
+baseURL = "https://tarakrishnan.net"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
