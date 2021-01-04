@@ -1,6 +1,6 @@
 # .github/workflows/build.yml
 
-name: deploy
+name: build
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
     - master
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
