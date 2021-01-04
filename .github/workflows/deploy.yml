@@ -1,28 +1,22 @@
-name: Deploy
+# .github/workflows/build.yml
 
-# Run this workflow every time a new commit pushed to your repository
-on: push
+name: deploy
+
+on:
+  push:
+    branches:
+    - master
 
 jobs:
-  # Set the job key. The key is displayed as the job name
-  # when a job name is not provided
-  static-deploy:
-    # Name the Job
-    name: Deploy to GH Pages
-    # Set the type of machine to run on
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Build Hugo
-        uses: lowply/build-hugo@v0.79.0
-
-      # Runs the deploy.sh action
-      - name: Deploy
-        run: deploy.sh
-        env:
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: 'Building...'
+      uses: reuixiy/hugo-deploy@v1
+      env:
+        DEPLOY_REPO: username/username.github.io
+        DEPLOY_BRANCH: build
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        TZ: Asia/Shanghai
