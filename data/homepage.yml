@@ -1,7 +1,7 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Tara!"
+  title: "Hello, I’m Tara"
   subtitle: "Product Marketer | Product Manager | Program Manager | Mentor"
   description: "I work cross-functionally with teams to drive product adoption, make data driven product decisions and bring products to market. My last role was at Puppet where I served as a Product Manager."
   image:
